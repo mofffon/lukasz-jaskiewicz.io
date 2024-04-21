@@ -1,0 +1,127 @@
+html {
+  background-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  width: 1200px;
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 280px 1fr 167px;
+  column-gap: 42px;
+  row-gap: 70px;
+  align-items: start;
+}
+
+header {
+  font-size: 30px;
+  margin: 16px;
+  text-align: center;
+  text-transform: capitalize;
+
+  grid-column: 1 / -1;
+}
+
+header h1 {
+  letter-spacing: -3px;
+}
+
+.nav-box {
+  grid-column: 1 / -1;
+  display: flex;
+  font-size: 26px;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  column-gap: 26px;
+}
+
+.left-links a,
+.right-links a {
+  padding-left: 16px;
+  border-left: solid 2px black;
+}
+
+a:link,
+a:focus,
+a:active,
+a:visited {
+  color: #37b24d;
+  text-decoration: none;
+  gap: 50px;
+}
+
+a:hover {
+  color: #444;
+}
+
+.lukasz-image {
+  border-radius: 5%;
+  width: 100%;
+  align-self: center;
+}
+
+.page-footer {
+  margin-top: 30px;
+  grid-column: 1 / -1;
+  font-size: medium;
+}
+
+.projects-intro p,
+.lukasz-intro p {
+  font-size: 26px;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+  line-height: 1.2;
+}
+
+.lukasz-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.projects-intro h2,
+.lukasz-intro h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+
+  border-top: solid #444;
+  border-bottom: solid #444;
+  background-color: #f1f3f5;
+  padding: 16px;
+}
+
+.friends-heading {
+  font-size: 30px;
+}
+
+.friends-list {
+  list-style-type: none;
+}
+
+.friends-list li {
+  margin-top: 12px;
+}
+
+.friends-link p {
+  font-size: 20px;
+}
