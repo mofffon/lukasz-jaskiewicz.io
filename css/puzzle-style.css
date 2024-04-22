@@ -57,3 +57,8 @@
   color: #fff;
   background-color: #37b24d;
 }
+
+.menu-btn[disabled] {
+  background-color: gainsboro;
+  cursor: auto;
+}
