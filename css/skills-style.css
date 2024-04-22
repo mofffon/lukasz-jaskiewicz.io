@@ -1,0 +1,63 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 167px;
+}
+
+.skill-set-header {
+  margin-bottom: 16px;
+}
+
+.skill-item {
+  text-align: center;
+  display: inline-block;
+  width: 10%;
+  font-size: 20px;
+}
+
+.skill {
+  margin-bottom: 16px;
+}
+
+.skill-bar {
+  border-radius: 5%;
+  text-align: right;
+  display: inline-block;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(55, 178, 77, 1) 46%
+  );
+}
+
+.html {
+  width: 50%;
+}
+
+.css {
+  width: 30%;
+}
+
+.javascript {
+  width: 60%;
+}
+
+.typescript {
+  width: 20%;
+}
+
+.react {
+  width: 20%;
+}
+
+.nodejs {
+  width: 40%;
+}
+
+.sql {
+  width: 30%;
+}
+
+.nosql {
+  width: 10%;
+}
