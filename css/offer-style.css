@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 167px;
+}
+
+.offer-item img {
+  width: 240px;
+  height: 240px;
+}
+
+.offer-container {
+  display: grid;
+  margin-left: 100px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 100px;
+}
+
+.item-description {
+  text-align: left;
+  font-size: 18px;
+}

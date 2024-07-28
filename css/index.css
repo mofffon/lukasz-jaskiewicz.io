@@ -1,0 +1,19 @@
+.main-container {
+  display: flex;
+  gap: 20px;
+}
+
+.lukasz-image {
+  width: 260px;
+}
+.projects-intro p,
+.lukasz-intro p {
+  font-size: 26px;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+  line-height: 1.5;
+}
+
+.lukasz-intro p:last-child {
+  margin-bottom: 0;
+}

@@ -15,17 +15,10 @@ body {
   margin: auto;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 280px 1fr 167px;
-  column-gap: 42px;
-  row-gap: 70px;
-  align-items: start;
-}
-
 header {
   font-size: 30px;
-  margin: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   text-align: center;
   text-transform: capitalize;
 
@@ -56,6 +49,10 @@ header h1 {
   border-left: solid 2px black;
 }
 
+.left-links a:first-child {
+  border-left: none;
+}
+
 a:link,
 a:focus,
 a:active,
@@ -79,18 +76,6 @@ a:hover {
   margin-top: 30px;
   grid-column: 1 / -1;
   font-size: medium;
-}
-
-.projects-intro p,
-.lukasz-intro p {
-  font-size: 26px;
-  margin-bottom: 20px;
-  letter-spacing: -1px;
-  line-height: 1.2;
-}
-
-.lukasz-intro p:last-child {
-  margin-bottom: 0;
 }
 
 .projects-intro h2,
