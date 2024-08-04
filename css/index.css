@@ -1,19 +1,20 @@
 .main-container {
+  align-items: start;
+  grid-template-columns: 4fr 1fr;
   display: flex;
-  gap: 20px;
+}
+
+.intro-section {
+  display: flex;
+  margin-right: 16px;
+  gap: 30px;
 }
 
 .lukasz-image {
-  width: 260px;
-}
-.projects-intro p,
-.lukasz-intro p {
-  font-size: 26px;
-  margin-bottom: 20px;
-  letter-spacing: -1px;
-  line-height: 1.5;
+  border-radius: 16px;
+  width: 320px;
 }
 
-.lukasz-intro p:last-child {
-  margin-bottom: 0;
+.friends {
+  align-self: start;
 }

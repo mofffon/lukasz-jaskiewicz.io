@@ -1,0 +1,14 @@
+.main-container {
+  grid-column: 1/3;
+  align-items: start;
+  grid-template-columns: 4fr 1fr;
+  display: grid;
+}
+
+.lukasz-intro {
+  margin-right: 30px;
+}
+
+.linkedInLink:link {
+  border-left: none;
+}

@@ -1,0 +1,23 @@
+.offer-item img {
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+}
+
+.main-container {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-content: start;
+}
+
+.offer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+.page-footer {
+  grid-column: 1/-1;
+}

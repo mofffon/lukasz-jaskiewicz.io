@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: sans-serif;
+  padding: 0px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  display: grid;
+  margin: auto;
+  width: 1200px;
+  grid-template-columns: 4fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+a:link,
+a:visited,
+a:active {
+  border-left: 3px solid;
+  padding-left: 8px;
+  color: green;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+a:hover {
+  border-left: 3px solid;
+  padding-left: 8px;
+  color: green;
+  text-decoration: underline;
+  font-size: 32px;
+}
+
+.nav-box {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 5fr 1fr 2fr;
+}
+
+header {
+  grid-column: 1/-1;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+.friends {
+  grid-column: 2 / span 1;
+  background-color: lightgray;
+  padding: 16px;
+}
+
+.friends-heading {
+  font-size: 26px;
+  text-align: center;
+}
+
+.friends {
+  align-self: start;
+}
+
+.friends-list {
+  list-style-type: none;
+}
+
+.friends-link {
+  display: inline-block;
+}
+
+p {
+  margin-bottom: 12px;
+  font-size: 28px;
+}

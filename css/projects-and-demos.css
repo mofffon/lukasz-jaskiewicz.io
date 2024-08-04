@@ -1,0 +1,21 @@
+.project-link:link,
+.githubLink:link {
+  border-left: none;
+}
+
+.project-description {
+  font-size: 18px;
+}
+
+.project-images {
+  display: flex;
+  gap: 30px;
+}
+
+.projectImage {
+  width: 200px;
+}
+
+.page-footer {
+  grid-column: 1/-1;
+}
